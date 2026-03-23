@@ -35,12 +35,35 @@ Because the two screens of the Nintendo 3ds have different sizes, scaling is app
 - The level grid is automatically centered on screen
 - Next level loads automatically when current one is cleared
 
-🚀 Running the Project
+## Running the Project
 
 You can run the game:
 
 On a modded Nintendo 3DS
 On a 3DS emulator
+
+### Build
+
+**official guide:** https://devkitpro.org/wiki/devkitPro_pacman
+
+#### Install devkitPro
+
+This installs the compiler and all libraries needed for 3DS homebrew (libctru, citro2d, citro3d, etc.).
+
+**On Linux (Debian based)**
+
+Open a terminal and run these commands:
+
+```bash
+# 1. Download the installer
+wget -U "dkp-apt" https://apt.devkitpro.org/install-devkitpro-pacman
+
+# 2. Make it executable
+chmod +x ./install-devkitpro-pacman
+
+# 3. Run the installer
+sudo ./install-devkitpro-pacman
+```
 
 ### Launch on Azahar Emulator
 - Open Azahar
