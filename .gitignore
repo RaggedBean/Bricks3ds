@@ -1,0 +1,21 @@
+# Builds & binaires
+*.3dsx
+*.cia
+*.elf
+build/
+release/
+obj/
+data/
+romfs/
+*.o
+*.d
+
+# DevKitPro / toolchain temporaires
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Fichiers de debug / logs
+log.txt
+debug.log
