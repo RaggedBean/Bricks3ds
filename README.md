@@ -1,5 +1,5 @@
 # Bricks3ds
-A simple Arkanoid-like game developed in C++ for Nintendo 3DS consoles.
+A homebrew Brick Breaker game developed in C++ for Nintendo 3DS consoles.
 
 📌 Overview
 
